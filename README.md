@@ -1,16 +1,75 @@
-# React + Vite
+# Random Quotes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully animated, responsive random quotes application built with React, Vite, Tailwind CSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Animations**: Smooth transitions and effects using Framer Motion.
+- **Glassmorphism UI**: Modern, sleek design with glass-like elements.
+- **Localization**: Support for English (EN) and Indonesian (ID) languages.
+- **Categories**: Filter quotes by Romance, Motivation, Life, and Humor.
+- **API Integration**: Fetches quotes dynamically from `dummyjson.com` (EN) and `candaan-api` (ID Humor).
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Social Sharing**: Easily share quotes to Twitter.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **HTTP Client**: [Axios](https://axios-http.com/)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rzandi/project_Quotes.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd project_Quotes
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running Locally
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open http://localhost:5173 to view it in the browser.
+
+### Building for Production
+
+Build the app for production:
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This project is configured for deployment on GitHub Pages.
+
+To deploy:
+
+```bash
+npm run deploy
+```
+
+## License
+
+MIT
