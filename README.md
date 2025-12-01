@@ -62,13 +62,14 @@ npm run build
 
 ## Deployment
 
-This project is configured for deployment on GitHub Pages.
+This project is ready for deployment on Vercel.
 
-To deploy:
-
-```bash
-npm run deploy
-```
+1. Push your code to a GitHub repository.
+2. Go to [Vercel](https://vercel.com) and sign in.
+3. Click "Add New..." > "Project".
+4. Import your GitHub repository.
+5. Vercel will automatically detect Vite and configure the build settings.
+6. Click "Deploy".
 
 ## License
 
